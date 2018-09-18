@@ -231,7 +231,7 @@ $cfdi->add(new Receptor([
 ###### Traslado en comprobante
 
 ```php
-use Kinedu\CFDI\Node\Impuesto\Traslado;
+use Kinedu\CfdiXML\Node\Impuesto\Traslado;
 use Kinedu\CfdiXML\CFDI;
 
 $cfdi = new CFDI([...]);
@@ -262,7 +262,7 @@ $cfdi->add(new Traslado([
 ###### Traslado en concepto
 
 ```php
-use Kinedu\CFDI\Node\Impuesto\Traslado;
+use Kinedu\CfdiXML\Node\Impuesto\Traslado;
 use Kinedu\CfdiXML\Node\Concepto;
 use Kinedu\CfdiXML\CFDI;
 
@@ -301,7 +301,7 @@ $concepto->add(new Traslado([
 ###### Retención en comprobante
 
 ```php
-use Kinedu\CFDI\Node\Impuesto\Retencion;
+use Kinedu\CfdiXML\Node\Impuesto\Retencion;
 use Kinedu\CfdiXML\CFDI;
 
 $cfdi = new CFDI([...]);
@@ -330,7 +330,7 @@ $cfdi->add(new Retencion([
 ###### Retención en concepto
 
 ```php
-use Kinedu\CFDI\Node\Impuesto\Retencion;
+use Kinedu\CfdiXML\Node\Impuesto\Retencion;
 use Kinedu\CfdiXML\Node\Concepto;
 use Kinedu\CfdiXML\CFDI;
 
